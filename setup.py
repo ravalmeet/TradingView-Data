@@ -7,7 +7,6 @@ setup(
     name="TredingViewData",
     version="0.1",
     packages=["TredingViewData"],
-    license="MIT License",
     author="@RavalMeet",
     author_email="ravalmeett@gmail.com",
     description="TradingView Historical Data Downloader Tool",
