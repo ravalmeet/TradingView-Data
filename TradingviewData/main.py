@@ -268,7 +268,7 @@ class TredingViewData:
 
         return self.__create_df(raw_data, symbol)
 
-    def search_symbol(self, text: str, exchange: str = ''):
+    def search(self, text: str, exchange: str = ''):
         url = self.__search_url.format(text, exchange)
 
         symbols_list = []
