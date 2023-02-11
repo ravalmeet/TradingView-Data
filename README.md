@@ -3,15 +3,6 @@
 
 A Simple TradingView Data Downloader. TradinViewData allows downloading upto 5000 Candles on any of the supported timeframe.
 
-
-
-
-## Installation
-
-```bash
-pip install tradingviewdata
-```
-
     
 # Usage
 
