@@ -29,7 +29,7 @@ class Interval(enum.Enum):
     monthly = "1M"
 
 
-class TredingViewData:
+class TradingViewData:
     __sign_in_url = 'https://www.tradingview.com/accounts/signin/'
     __search_url = 'https://symbol-search.tradingview.com/symbol_search/?text={}&hl=1&exchange={}&lang=en&type=&domain=production'
     __ws_headers = json.dumps({"Origin": "https://data.tradingview.com"})
@@ -285,7 +285,7 @@ class TredingViewData:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    tv = TredingViewData()
+    tv = TradingViewData()
     print(tv.get_hist("CRUDEOIL", "MCX", fut_contract=1))
     print(tv.get_hist("NIFTY", "NSE", fut_contract=1))
     print(
