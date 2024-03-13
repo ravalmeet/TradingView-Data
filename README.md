@@ -7,9 +7,9 @@ A Simple TradingView Data Downloader. TradinViewData allows downloading upto 500
 # Usage
 
 ```Python
-from TradingviewData import TredingViewData,Interval
+from TradingviewData import TradingViewData,Interval
 
-request = TredingViewData()
+request = TradingViewData()
 ```
 
 
